@@ -1,0 +1,146 @@
+body,
+html {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: Nunito;
+  background: #f2f2f2;
+  background-image: url("https:source.unsplash.com/blue-bmw-car-in-a-dark-room-ffH_GkINfyY");
+}
+
+.header-content {
+  display: flex;
+  background-color: #1f55eb;
+  justify-content: space-between;
+  vertical-align: center;
+  text-align: center;
+  padding: 0px;
+}
+
+.header-content img {
+  margin-left: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  vertical-align: center;
+  justify-content: center;
+}
+
+
+
+h1 {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-left: 70px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+   
+}
+
+.interactive-cards {
+  box-sizing: border-box;
+  background: #fff;
+  width: calc(33.33% - 20px); /* Adjust the width as needed */
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  
+  min-height: 50px;
+
+}
+
+.interactive-cards h2 {
+  margin-top: 0;
+}
+
+.interactive-cards:hover {
+  transform: scale(1.03);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 28px;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 20px;
+}
+.interactive-cards h2 {
+  margin-top: 0;
+}
+
+.btn-report,
+.btn-emergency,
+.btn-new,
+.btn-hos,
+.btn-crime,
+.btn-police {
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+btn-report:hover {
+  background-color: #0056b3;
+}
+
+.btn-emergency:hover {
+  background-color: red;
+}
+
+.btn-police:hover,
+.btn-hos:hover,
+.btn-new:hover {
+  background-color: green;
+}
+
+.btn-emergency:hover {
+  background-color: #b30000;
+}
+
+.btn-police:hover {
+  background-color: #00b348;
+}
+
+img {
+  display: inline-block;
+  border-radius: 10%;
+  padding-top: 20px;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+}
+
